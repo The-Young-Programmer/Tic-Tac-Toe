@@ -32,7 +32,7 @@ function startGame (pl) {
          if (player == "X") {
             return "Tap any box to start ...";
          }
-         return "First is Devise ,\n then tap any box for next move ...";
+         return "First is Device ,\n then tap any box for next move ...";
       })()}`);
    }
    if (player == "O") {
@@ -81,7 +81,7 @@ function getResult () {
       swal({
         title: `Player ${isDone[1]} Won !`,
         text: "do you want to restart the game ?",
-        icon: "info",
+        icon: "success",
         buttons: true
       })
       .then((willDelete) => {
