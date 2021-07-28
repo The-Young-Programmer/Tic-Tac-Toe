@@ -1,7 +1,7 @@
 /* Created by THE YOUNG PROGRAMMER aka NEMONET */
 
 :root {
-   --primary-color: #F1F3F4;
+   --primary-color: #ebf2ac;
    --secondary-color: #512B58;
 }
 * {
@@ -33,6 +33,7 @@
 }
 small {
    font-size: 21px;
+   color: lightblue;
 }
 
 #data {
