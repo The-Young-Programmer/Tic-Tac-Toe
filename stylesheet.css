@@ -33,9 +33,11 @@
 }
 small {
    font-size: 21px;
-   color: lightblue;
 }
-
+a {
+    text-decoration: none;
+    color: lightblue;
+}
 #data {
    width: 80vw;
    max-width: 450px;
